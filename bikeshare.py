@@ -212,7 +212,7 @@ def calc_popular_day_of_week(df,city,analysis_type,selected_month):
 # when month filter is selected for a specific day, i.e. "month", the most popular hour in selected month
 # for that selected day is found using a dataset filtered by the selected month and selected day in that month
 # (for example January 20)
-# input parameters are arranged to write better comments in the command prompt
+# input parameters are arranged in order to write better comments in the command prompt
 def calc_popular_hour(df,city,analysis_type,selected_month,selected_day,selected_day_of_week):
     print("Calculating statistics for the most popular hour to start trip...")
 

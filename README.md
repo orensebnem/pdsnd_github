@@ -2,7 +2,7 @@
 Feb 21, 2019
 
 ### Project Title
-Explore US Bikeshare data
+Explore US Bikeshare data for Washington, New York and Chicago
 
 ### Description
 The project runs statistical analytics on U.S. Bikeshare data. It builds an interactive user interface to calculate statistics. The user chooses the data and filter the dataset to analyze.
