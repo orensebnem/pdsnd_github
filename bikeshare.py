@@ -338,7 +338,7 @@ def calc_user_birth_year(df,city,analysis_type,selected_month,selected_day,selec
 
 
 def calc_popular_trip(df,city,analysis_type,selected_month,selected_day,selected_day_of_week):
-    print("Calculating statistics for the most popular trip from start to end")
+    print("Calculating statistics for the most popular trip from start to end in {}".format(city.capitalize()))
 
     if ('Start Station' in df.columns) and ('End Station' in df.columns):
         grouped= df.groupby(['Start Station', 'End Station'],sort=False)['Start Time'] \
