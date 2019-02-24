@@ -301,7 +301,7 @@ def calc_user_type(df,city,analysis_type,selected_month,selected_day,selected_da
     print("\n")
 
 def calc_user_birth_year(df,city,analysis_type,selected_month,selected_day,selected_day_of_week):
-    print("Calculating statistics for the user birth year...")
+    print("Calculating statistics for the user birth year in {}...".format(city.capitalize()))
 
     if 'Birth Year' in df.columns:
         if  analysis_type=='none':
